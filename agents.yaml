@@ -1,0 +1,11 @@
+agents:
+  - name: agent1
+    role: admin
+    permissions:
+      - read
+      - write
+      - execute
+  - name: agent2
+    role: user
+    permissions:
+       - read
