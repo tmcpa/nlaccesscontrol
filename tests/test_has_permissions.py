@@ -2,6 +2,8 @@ import unittest
 import yaml
 from modules.permission_checker import permission_checker
 
+# run python -m unittest tests/test_has_permissions.py
+
 class TestPermissionChecker(unittest.TestCase):
 
     # agent1 has permission(s)
